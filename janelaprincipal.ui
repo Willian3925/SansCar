@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JanelaPrincipal</class>
+ <widget class="QDialog" name="JanelaPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>SansCar</string>
+  </property>
+  <widget class="QLineEdit" name="lnPlaca">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>8</y>
+     <width>108</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string>AAA-9999</string>
+   </property>
+   <property name="placeholderText">
+    <string>Placa ...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnProcurar">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>80</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Procurar</string>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="twListagem">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>721</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Placa</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Marca</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cidade</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Modelo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cor</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>UF</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="lblEstacionados">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>499</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Carros estacion:</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>522</y>
+     <width>46</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCadastrar">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>520</y>
+     <width>100</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cadastrar Carro</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btncadsaida">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>519</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cadastrar Saida</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

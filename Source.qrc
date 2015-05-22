@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>source/images.jpeg</file>
+        <file>source/info-147927_640.png</file>
+    </qresource>
+    <qresource prefix="/data">
+        <file>source/data/cidades.csv</file>
+        <file>source/data/cores.csv</file>
+        <file>source/data/users.csv</file>
+        <file>source/data/marcas.csv</file>
+        <file>source/data/carros.csv</file>
+    </qresource>
+</RCC>
